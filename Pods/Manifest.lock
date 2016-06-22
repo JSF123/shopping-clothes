@@ -14,21 +14,29 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
   - MJRefresh (3.1.0)
+  - Reachability (3.2)
   - SDWebImage (3.7.6):
     - SDWebImage/Core (= 3.7.6)
   - SDWebImage/Core (3.7.6)
 
 DEPENDENCIES:
   - AFNetworking
+  - FMDB (~> 2.6.2)
   - MJRefresh
+  - Reachability (~> 3.2)
   - SDWebImage (~> 3.7.6)
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
   MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
 
-PODFILE CHECKSUM: 32f7dbadc66784287cdf1df55dd0725caa33d224
+PODFILE CHECKSUM: ed3a95eb5c9d6e90b52db8695ada008cb74b0d5d
 
-COCOAPODS: 1.0.0
+COCOAPODS: 1.0.1

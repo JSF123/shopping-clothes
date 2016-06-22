@@ -12,7 +12,6 @@
 		3F422D101D081F490076689D /* DDMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F422D0F1D081F490076689D /* DDMenuController.m */; };
 		3F422D181D0822020076689D /* RightController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F422D171D0822020076689D /* RightController.m */; };
 		3F422D1A1D0839A70076689D /* nav_menu_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F422D191D0839A70076689D /* nav_menu_icon@2x.png */; };
-		3F422D1E1D09705D0076689D /* CustomHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F422D1D1D09705D0076689D /* CustomHeaderView.m */; };
 		3F422D211D0992E10076689D /* UnifyCustomHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F422D201D0992E10076689D /* UnifyCustomHeaderView.m */; };
 		3F422D241D0999F10076689D /* CommodityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F422D231D0999F10076689D /* CommodityModel.m */; };
 		3F47ADA21D06B4230021099E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F47ADA11D06B4230021099E /* main.m */; };
@@ -1413,6 +1412,11 @@
 		3F68D78E1D0EE2D700F0A673 /* HttpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F68D78D1D0EE2D700F0A673 /* HttpManager.m */; };
 		3F68D7901D0EEB6300F0A673 /* 123Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F68D78F1D0EEB6300F0A673 /* 123Property List.plist */; };
 		3F68D7921D0EF4D200F0A673 /* AProperty List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F68D7911D0EF4D200F0A673 /* AProperty List.plist */; };
+		3F68D7AD1D0FACD900F0A673 /* FirstCustomScroll.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F68D7AC1D0FACD900F0A673 /* FirstCustomScroll.m */; };
+		3F68D7B01D100AAF00F0A673 /* SexScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F68D7AF1D100AAF00F0A673 /* SexScrollView.m */; };
+		3F68D7B31D10340500F0A673 /* LastScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F68D7B21D10340500F0A673 /* LastScrollView.m */; };
+		3F68D7B81D11371200F0A673 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F68D7B71D11371200F0A673 /* libsqlite3.0.tbd */; };
+		3F68D7BF1D1139D900F0A673 /* FMDBShopping.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F68D7BE1D1139D900F0A673 /* FMDBShopping.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -1424,8 +1428,6 @@
 		3F422D161D0822020076689D /* RightController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightController.h; sourceTree = "<group>"; };
 		3F422D171D0822020076689D /* RightController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightController.m; sourceTree = "<group>"; };
 		3F422D191D0839A70076689D /* nav_menu_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav_menu_icon@2x.png"; sourceTree = "<group>"; };
-		3F422D1C1D09705D0076689D /* CustomHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomHeaderView.h; path = ../View/GtandCustomView/CustomHeaderView.h; sourceTree = "<group>"; };
-		3F422D1D1D09705D0076689D /* CustomHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomHeaderView.m; path = ../View/GtandCustomView/CustomHeaderView.m; sourceTree = "<group>"; };
 		3F422D1F1D0992E10076689D /* UnifyCustomHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnifyCustomHeaderView.h; sourceTree = "<group>"; };
 		3F422D201D0992E10076689D /* UnifyCustomHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnifyCustomHeaderView.m; sourceTree = "<group>"; };
 		3F422D221D0999F10076689D /* CommodityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommodityModel.h; sourceTree = "<group>"; };
@@ -2855,6 +2857,15 @@
 		3F68D78D1D0EE2D700F0A673 /* HttpManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpManager.m; sourceTree = "<group>"; };
 		3F68D78F1D0EEB6300F0A673 /* 123Property List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "123Property List.plist"; sourceTree = "<group>"; };
 		3F68D7911D0EF4D200F0A673 /* AProperty List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AProperty List.plist"; sourceTree = "<group>"; };
+		3F68D7AB1D0FACD900F0A673 /* FirstCustomScroll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstCustomScroll.h; sourceTree = "<group>"; };
+		3F68D7AC1D0FACD900F0A673 /* FirstCustomScroll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstCustomScroll.m; sourceTree = "<group>"; };
+		3F68D7AE1D100AAF00F0A673 /* SexScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SexScrollView.h; sourceTree = "<group>"; };
+		3F68D7AF1D100AAF00F0A673 /* SexScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SexScrollView.m; sourceTree = "<group>"; };
+		3F68D7B11D10340500F0A673 /* LastScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LastScrollView.h; sourceTree = "<group>"; };
+		3F68D7B21D10340500F0A673 /* LastScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LastScrollView.m; sourceTree = "<group>"; };
+		3F68D7B71D11371200F0A673 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		3F68D7BD1D1139D900F0A673 /* FMDBShopping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDBShopping.h; sourceTree = "<group>"; };
+		3F68D7BE1D1139D900F0A673 /* FMDBShopping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDBShopping.m; sourceTree = "<group>"; };
 		7AC3566FC977B97C845A59C5 /* Pods-ShoppingClothes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShoppingClothes.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShoppingClothes/Pods-ShoppingClothes.release.xcconfig"; sourceTree = "<group>"; };
 		EE8176DA98057CCD6D3BCCAC /* Pods-ShoppingClothes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShoppingClothes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShoppingClothes/Pods-ShoppingClothes.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -2864,6 +2875,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F68D7B81D11371200F0A673 /* libsqlite3.0.tbd in Frameworks */,
 				2209ABFB2580B8D2A0A56930 /* libPods-ShoppingClothes.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2874,6 +2886,7 @@
 		2AE7CD5161FF0FCA7ACC4912 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3F68D7B71D11371200F0A673 /* libsqlite3.0.tbd */,
 				14ACC328D1EC226BD4D9FD79 /* libPods-ShoppingClothes.a */,
 			);
 			name = Frameworks;
@@ -3013,8 +3026,6 @@
 				3F422D0F1D081F490076689D /* DDMenuController.m */,
 				3F68D76F1D0E8FAB00F0A673 /* UICustomLineLabel.h */,
 				3F68D7701D0E8FAB00F0A673 /* UICustomLineLabel.m */,
-				3F422D1C1D09705D0076689D /* CustomHeaderView.h */,
-				3F422D1D1D09705D0076689D /* CustomHeaderView.m */,
 			);
 			path = Third;
 			sourceTree = "<group>";
@@ -3022,6 +3033,9 @@
 		3F47ADC01D06C7960021099E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3F68D7A81D0FACB800F0A673 /* FirstScrollView */,
+				3F68D7A91D0FACB800F0A673 /* LastHeaderScroll */,
+				3F68D7AA1D0FACB800F0A673 /* SexScrollView */,
 				3F422D1F1D0992E10076689D /* UnifyCustomHeaderView.h */,
 				3F422D201D0992E10076689D /* UnifyCustomHeaderView.m */,
 				3F68D7691D0D512500F0A673 /* MyCollectionViewCell.h */,
@@ -4448,6 +4462,8 @@
 			children = (
 				3F47B8AD1D0718520021099E /* HeaderDefine.h */,
 				3F47B8AE1D0718520021099E /* PrefixHeader.pch */,
+				3F68D7BD1D1139D900F0A673 /* FMDBShopping.h */,
+				3F68D7BE1D1139D900F0A673 /* FMDBShopping.m */,
 				3F68D7661D0C050400F0A673 /* GetBaseByASI.h */,
 				3F68D7671D0C050400F0A673 /* GetBaseByASI.m */,
 				3F68D78C1D0EE2D000F0A673 /* HttpManager.h */,
@@ -4477,6 +4493,33 @@
 			path = SearchVC;
 			sourceTree = "<group>";
 		};
+		3F68D7A81D0FACB800F0A673 /* FirstScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				3F68D7AB1D0FACD900F0A673 /* FirstCustomScroll.h */,
+				3F68D7AC1D0FACD900F0A673 /* FirstCustomScroll.m */,
+			);
+			path = FirstScrollView;
+			sourceTree = "<group>";
+		};
+		3F68D7A91D0FACB800F0A673 /* LastHeaderScroll */ = {
+			isa = PBXGroup;
+			children = (
+				3F68D7B11D10340500F0A673 /* LastScrollView.h */,
+				3F68D7B21D10340500F0A673 /* LastScrollView.m */,
+			);
+			path = LastHeaderScroll;
+			sourceTree = "<group>";
+		};
+		3F68D7AA1D0FACB800F0A673 /* SexScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				3F68D7AE1D100AAF00F0A673 /* SexScrollView.h */,
+				3F68D7AF1D100AAF00F0A673 /* SexScrollView.m */,
+			);
+			path = SexScrollView;
+			sourceTree = "<group>";
+		};
 		8C808ED244DBADD508CC935F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -4493,12 +4536,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F47ADB41D06B4230021099E /* Build configuration list for PBXNativeTarget "ShoppingClothes" */;
 			buildPhases = (
-				9B8E763414276432731621E3 /* 📦 Check Pods Manifest.lock */,
+				9B8E763414276432731621E3 /* [CP] Check Pods Manifest.lock */,
 				3F47AD991D06B4230021099E /* Sources */,
 				3F47AD9A1D06B4230021099E /* Frameworks */,
 				3F47AD9B1D06B4230021099E /* Resources */,
-				FF5734645E7CD53BDD2AC608 /* 📦 Embed Pods Frameworks */,
-				BFA1F32B6213CDDA24FADAA4 /* 📦 Copy Pods Resources */,
+				FF5734645E7CD53BDD2AC608 /* [CP] Embed Pods Frameworks */,
+				BFA1F32B6213CDDA24FADAA4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -5929,14 +5972,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		9B8E763414276432731621E3 /* 📦 Check Pods Manifest.lock */ = {
+		9B8E763414276432731621E3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -5944,14 +5987,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		BFA1F32B6213CDDA24FADAA4 /* 📦 Copy Pods Resources */ = {
+		BFA1F32B6213CDDA24FADAA4 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -5959,14 +6002,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShoppingClothes/Pods-ShoppingClothes-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FF5734645E7CD53BDD2AC608 /* 📦 Embed Pods Frameworks */ = {
+		FF5734645E7CD53BDD2AC608 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -5986,13 +6029,16 @@
 				3F422D0A1D07AA460076689D /* CustomButton.m in Sources */,
 				3F47B8921D07076D0021099E /* CustomFirstView.m in Sources */,
 				3F68D7771D0ED38C00F0A673 /* LoginViewController.m in Sources */,
+				3F68D7B31D10340500F0A673 /* LastScrollView.m in Sources */,
 				3F68D77D1D0EE0AF00F0A673 /* CustomView.m in Sources */,
 				3F68D78E1D0EE2D700F0A673 /* HttpManager.m in Sources */,
 				3F68D7891D0EE2B200F0A673 /* VeryNewModel.m in Sources */,
 				3F47B8A71D0717580021099E /* MyVC.m in Sources */,
+				3F68D7BF1D1139D900F0A673 /* FMDBShopping.m in Sources */,
 				3F47B8A81D0717580021099E /* SchoolVC.m in Sources */,
 				3F422D241D0999F10076689D /* CommodityModel.m in Sources */,
 				3F68D76B1D0D512500F0A673 /* MyCollectionViewCell.m in Sources */,
+				3F68D7AD1D0FACD900F0A673 /* FirstCustomScroll.m in Sources */,
 				3F47B8BA1D071C3D0021099E /* SearchVC.m in Sources */,
 				3F47B8A51D0717580021099E /* HomeAgeVC.m in Sources */,
 				3F47ADA21D06B4230021099E /* main.m in Sources */,
@@ -6000,7 +6046,7 @@
 				3F47ADD41D06E55D0021099E /* CustomNavigation.m in Sources */,
 				3F68D7861D0EE28D00F0A673 /* CollocationView.m in Sources */,
 				3F68D77F1D0EE24600F0A673 /* ProjuctVC.m in Sources */,
-				3F422D1E1D09705D0076689D /* CustomHeaderView.m in Sources */,
+				3F68D7B01D100AAF00F0A673 /* SexScrollView.m in Sources */,
 				3F47B8B41D071C0E0021099E /* ClassificationVC.m in Sources */,
 				3F68D7681D0C050400F0A673 /* GetBaseByASI.m in Sources */,
 				3F68D7731D0ED27D00F0A673 /* MyViewController.m in Sources */,
@@ -6135,6 +6181,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JSF.ShoppingClothes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 			};
 			name = Debug;
 		};
@@ -6148,6 +6195,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JSF.ShoppingClothes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 			};
 			name = Release;
 		};

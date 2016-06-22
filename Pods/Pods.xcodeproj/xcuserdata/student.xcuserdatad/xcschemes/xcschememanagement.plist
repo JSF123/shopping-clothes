@@ -9,12 +9,22 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>FMDB.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>MJRefresh.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>Pods-ShoppingClothes.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Reachability.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -27,7 +37,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>7108921F17D31D84CE3DFAC056D824C5</key>
+		<key>680CC996AAA0B5AE98EF6B7BF5AF6CAA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8C7C095EA335FD31B0F8403E0DAAE8AC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -42,7 +57,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F4C2A979C764D9C48B5F2E5D2F2CCA0B</key>
+		<key>9F12FB4A63E20F601CFB2E64A65B57C1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F9FF7AAE8F188744E6C3740E08C46BC2</key>
 		<dict>
 			<key>primary</key>
 			<true/>

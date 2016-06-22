@@ -7,4 +7,6 @@ target :'ShoppingClothes' do
    pod 'AFNetworking'
    pod 'SDWebImage', '~> 3.7.6'
    pod 'MJRefresh'
+   pod 'FMDB', '~> 2.6.2'
+   pod 'Reachability', '~> 3.2'
 end

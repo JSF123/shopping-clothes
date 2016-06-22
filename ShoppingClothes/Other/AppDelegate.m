@@ -16,6 +16,7 @@
 #import "RightController.h"
 #import "MyVC.h"
 #import "MyViewController.h"
+#import "FMDBShopping.h"
 @interface AppDelegate ()
 
 @end
@@ -25,6 +26,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [FMDBShopping createDatabase];
+    
+    
     [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
     //UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     
